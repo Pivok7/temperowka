@@ -4,7 +4,15 @@
 
 /* Custom styles */
 .btn {
-  @apply bg-red-300 text-white font-bold py-2 px-4 rounded;
+  @apply bg-red-700 text-white font-bold py-2 px-4 rounded;
+}
+
+.btn-navi {
+    @apply bg-slate-400 shadow-md font-bold py-2 px-4 rounded;
+}
+
+.navi-wrap {
+    @apply bg-zinc-700
 }
 
 .card {
